@@ -13,8 +13,8 @@ class Motion:
         pass # Remove this once adding code)
         
     # 7.0.1 The String Representation Method
-    def __str__(self):
-        pass # Remove this once adding code)
+#     def __str__(self):                               ##Uncomment this once you are working on step 7.0.1
+#         pass # Remove this once adding code)
     
     # 7.8.0 Creating a Read Method for the Motion Class
     def read_jhc_file(self, fullpath):
@@ -48,6 +48,7 @@ class Motion:
     
     # 7.11 Getting Motion Data as a Rotation Matrix for a Specific Epoch
     def get_rotation_matrix(self, time = datetime.fromtimestamp(0, timezone.utc)):
+        pass
         # 7.11.1 Determining the Attitude
 
         #  7.11.2 Creating the Axes Rotation Matrices
